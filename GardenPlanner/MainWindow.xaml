@@ -6,7 +6,51 @@
         xmlns:local="clr-namespace:GardenPlanner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="DarkGreen">
-
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Buttons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Background="DarkGreen" >
+        <Image x:Name="Grass" Source ="/Images/grass.png" HorizontalAlignment="Center" Height="100" Margin="0,347,0,0" VerticalAlignment="Top" Width="800" Stretch="None" StretchDirection="DownOnly"/>
+        <Label Content="Garden Planner" 
+               HorizontalAlignment="Left" 
+               Height="48" 
+               Margin="522,0,0,0" 
+               VerticalAlignment="Top" 
+               Width="278" 
+               FontFamily="Arial Black" 
+               FontSize="30" 
+               Foreground ="White"
+               />
+        <Button x:Name="AddPlant" Style ="{StaticResource MainMenu}" Content="Add Plant" HorizontalAlignment="Left" Margin="18,14,0,0" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
+            </Button.Effect>
+        </Button>
+        <Button x:Name="RemovePlant" Style ="{StaticResource MainMenu}" Content="Remove Plant" HorizontalAlignment="Left"  Margin="18,77,0,0" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
+            </Button.Effect>
+        </Button>
+        <Button x:Name="TodayTask" Style ="{StaticResource MainMenu}" Content="Today's Tasks" HorizontalAlignment="Left"  Margin="18,140,0,0" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
+            </Button.Effect>
+        </Button>
+        <Button x:Name="Calendar" Style ="{StaticResource MainMenu}" Content="Calendar" HorizontalAlignment="Left"  Margin="18,203,0,0" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
+            </Button.Effect>
+        </Button>
+        <Button x:Name="AllPlants" Style ="{StaticResource MainMenu}" Content="List All Plants" HorizontalAlignment="Left"  Margin="18,266,0,0" VerticalAlignment="Top">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
+            </Button.Effect>
+        </Button>
+        <Border BorderBrush="White" BorderThickness ="3px"/>
     </Grid>
+
 </Window>
