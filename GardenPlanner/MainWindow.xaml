@@ -45,12 +45,22 @@
                 <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
             </Button.Effect>
         </Button>
-        <Button x:Name="AllPlants" Style ="{StaticResource MainMenu}" Content="List All Plants" HorizontalAlignment="Left"  Margin="18,266,0,0" VerticalAlignment="Top">
+        <Button x:Name="AllPlants" Style ="{StaticResource MainMenu}" Content="List All Plants" HorizontalAlignment="Left"  Margin="18,266,0,0" VerticalAlignment="Top" Click="AllPlants_Click">
             <Button.Effect>
                 <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
             </Button.Effect>
         </Button>
-        <Border BorderBrush="White" BorderThickness ="3px"/>
+        <Grid HorizontalAlignment="Left" Height="278" Margin="228,64,0,0" VerticalAlignment="Top" Width="527">
+            <Border BorderBrush="White" BorderThickness ="1px">
+            
+            </Border>
+        </Grid>
+        <!--<Border BorderBrush="White" BorderThickness ="3px">
+            
+        </Border>-->
+
     </Grid>
+
+
 
 </Window>

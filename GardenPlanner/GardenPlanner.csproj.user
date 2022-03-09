@@ -7,10 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Pages\NewGarden.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\StartScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Buttons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Buttons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NewGarden.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StartScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

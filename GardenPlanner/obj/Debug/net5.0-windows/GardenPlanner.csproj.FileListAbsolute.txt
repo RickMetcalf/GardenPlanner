@@ -21,3 +21,8 @@ D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\ref\GardenPlan
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\GardenPlanner.pdb
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\GardenPlanner.genruntimeconfig.cache
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Buttons.baml
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\StartScreen.g.cs
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\StartScreen.baml
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\Buttons.baml
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGarden.g.cs
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGarden.baml

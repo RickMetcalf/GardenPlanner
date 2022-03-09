@@ -12,33 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using GardenPlanner.Pages;
 
-namespace GardenPlanner
+namespace GardenPlanner.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for NewGarden.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class NewGarden : UserControl
     {
-        public MainWindow()
+        public NewGarden()
         {
             InitializeComponent();
-           
-        }
-
-
-
-        private void AllPlants_Click(object sender, RoutedEventArgs e)
-        {
-           
-        }
-        public void GoToStart()
-        {
-            StartScreen startScreen = new StartScreen();
-            
-            startScreen.ShowDialog();
         }
     }
-   
 }

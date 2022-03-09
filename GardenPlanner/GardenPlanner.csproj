@@ -17,4 +17,11 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Pages\Buttons.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
 </Project>

@@ -10,35 +10,32 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using GardenPlanner.Pages;
+using GardenPlanner;
 
-namespace GardenPlanner
+namespace GardenPlanner.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for StartScreen.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StartScreen : Window
     {
-        public MainWindow()
+        public StartScreen()
         {
             InitializeComponent();
-           
         }
 
-
-
-        private void AllPlants_Click(object sender, RoutedEventArgs e)
+        private void CreateGarden_Click(object sender, RoutedEventArgs e)
         {
-           
-        }
-        public void GoToStart()
-        {
-            StartScreen startScreen = new StartScreen();
+            MainWindow mainWindow = new MainWindow();
+            NewGardenInfo();
+            this.Close();
+            mainWindow.Show();
             
-            startScreen.ShowDialog();
+        }
+        public void NewGardenInfo()
+        {
+            NewGarden newgarden = new NewGarden();
         }
     }
-   
 }
