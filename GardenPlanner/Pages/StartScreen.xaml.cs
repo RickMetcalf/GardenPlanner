@@ -35,7 +35,9 @@ namespace GardenPlanner.Pages
         }
         public void NewGardenInfo()
         {
-            NewGarden newgarden = new NewGarden();
+            NewGardenDialog newGardenDialog = new NewGardenDialog();
+            newGardenDialog.ShowDialog();
+            
         }
     }
 }

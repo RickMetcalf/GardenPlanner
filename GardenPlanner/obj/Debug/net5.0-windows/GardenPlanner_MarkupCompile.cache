@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\New Repos\GardenPlanner\GardenPlanner\App.xaml
-5454398790
+5-1291300208
 
-51194967677
+51268865709
 193-1891726104
-Buttons.xaml;MainWindow.xaml;Pages\Buttons.xaml;Pages\NewGarden.xaml;Pages\StartScreen.xaml;
+Buttons.xaml;MainWindow.xaml;Pages\Buttons.xaml;Pages\NewGardenDialog.xaml;Pages\StartScreen.xaml;
 
 False
 

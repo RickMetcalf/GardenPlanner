@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GardenPlanner.Pages
 {
     /// <summary>
-    /// Interaction logic for NewGarden.xaml
+    /// Interaction logic for NewGardenDialog.xaml
     /// </summary>
-    public partial class NewGarden : UserControl
+    public partial class NewGardenDialog : Window
     {
-        public NewGarden()
+        public NewGardenDialog()
         {
             InitializeComponent();
         }

@@ -24,5 +24,5 @@ D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Buttons.baml
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\StartScreen.g.cs
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\StartScreen.baml
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\Buttons.baml
-D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGarden.g.cs
-D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGarden.baml
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGardenDialog.g.cs
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGardenDialog.baml
