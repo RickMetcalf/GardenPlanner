@@ -26,3 +26,6 @@ D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\StartScr
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\Buttons.baml
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGardenDialog.g.cs
 D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\Pages\NewGardenDialog.baml
+D:\New Repos\GardenPlanner\GardenPlanner\bin\Debug\net5.0-windows\GardenPlannerClasses.dll
+D:\New Repos\GardenPlanner\GardenPlanner\bin\Debug\net5.0-windows\GardenPlannerClasses.pdb
+D:\New Repos\GardenPlanner\GardenPlanner\obj\Debug\net5.0-windows\GardenPlanner.csproj.CopyComplete

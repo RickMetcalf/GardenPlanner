@@ -50,10 +50,8 @@
                 <DropShadowEffect ShadowDepth="0" BlurRadius="5" Color="#FF000000" />
             </Button.Effect>
         </Button>
-        <Grid HorizontalAlignment="Left" Height="278" Margin="228,64,0,0" VerticalAlignment="Top" Width="527">
-            <Border BorderBrush="White" BorderThickness ="1px">
-            
-            </Border>
+        <Grid x:Name="gardenView" HorizontalAlignment="Left" Height="Auto" Width="Auto" Margin="228,64,0,0" VerticalAlignment="Top">
+         
         </Grid>
         <!--<Border BorderBrush="White" BorderThickness ="3px">
             

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "GardenPlanner/1.0.0": {
+        "dependencies": {
+          "GardenPlannerClasses": "1.0.0"
+        },
         "runtime": {
           "GardenPlanner.dll": {}
+        }
+      },
+      "GardenPlannerClasses/1.0.0": {
+        "runtime": {
+          "GardenPlannerClasses.dll": {}
         }
       }
     }
   },
   "libraries": {
     "GardenPlanner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GardenPlannerClasses/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

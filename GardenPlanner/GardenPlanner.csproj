@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GardenPlannerClasses\GardenPlannerClasses.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="Images\grass.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

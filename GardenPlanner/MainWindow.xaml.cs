@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using GardenPlanner.Pages;
+using GardenPlannerClasses;
 
 namespace GardenPlanner
 {
@@ -21,10 +23,19 @@ namespace GardenPlanner
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Garden gardenMain;
+        public List<Garden> gardenList = new List<Garden>();
         public MainWindow()
         {
+            
             InitializeComponent();
-           
+            
+
+        }
+        
+        public void PopulateGarden()
+        {
+            //for (int i = 0; i < gardenMain.Length; i++) 
         }
 
 
@@ -33,12 +44,7 @@ namespace GardenPlanner
         {
            
         }
-        public void GoToStart()
-        {
-            StartScreen startScreen = new StartScreen();
-            
-            startScreen.ShowDialog();
-        }
+        
     }
    
 }

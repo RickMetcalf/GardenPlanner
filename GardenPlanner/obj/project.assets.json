@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {}
+    "net5.0-windows7.0": {
+      "GardenPlannerClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GardenPlannerClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GardenPlannerClasses.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GardenPlannerClasses/1.0.0": {
+      "type": "project",
+      "path": "../GardenPlannerClasses/GardenPlannerClasses.csproj",
+      "msbuildProject": "../GardenPlannerClasses/GardenPlannerClasses.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": []
+    "net5.0-windows7.0": [
+      "GardenPlannerClasses >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rmetc\\.nuget\\packages\\": {}
@@ -33,7 +55,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\New Repos\\GardenPlanner\\GardenPlannerClasses\\GardenPlannerClasses.csproj": {
+              "projectPath": "D:\\New Repos\\GardenPlanner\\GardenPlannerClasses\\GardenPlannerClasses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
