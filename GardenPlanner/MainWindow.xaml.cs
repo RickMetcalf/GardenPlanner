@@ -25,6 +25,8 @@ namespace GardenPlanner
     {
         public Garden gardenMain;
         public List<Garden> gardenList = new List<Garden>();
+        public int RowCount { get; set; }
+        public int ColumnCount { get; set; }
         public MainWindow()
         {
             
@@ -35,15 +37,16 @@ namespace GardenPlanner
         
         public void PopulateGarden()
         {
-            //for (int i = 0; i < gardenMain.Length; i++) 
+            gardenView.Columns.Clear();
+            for (int i = 0; i < gardenMain.Length; i++)
+            {
+                gardenView.Columns.Add();
+            }
         }
 
 
 
-        private void AllPlants_Click(object sender, RoutedEventArgs e)
-        {
-           
-        }
+        
         
     }
    
