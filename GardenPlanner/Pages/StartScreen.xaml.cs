@@ -24,6 +24,7 @@ namespace GardenPlanner.Pages
     {
         public bool created = false;
         public Garden garden;
+       
         public StartScreen()
         {
             InitializeComponent();
